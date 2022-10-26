@@ -9,5 +9,10 @@ namespace Calculator.Tests
         {
             Assert.Equal(8, Calculator.Add(3, 5));
         }
+
+        public void  SevenPlusFiveIsThirteen()
+        {
+            Assert.Equal(13, Calculator.Add(7, 5));
+        }
     }
 }
