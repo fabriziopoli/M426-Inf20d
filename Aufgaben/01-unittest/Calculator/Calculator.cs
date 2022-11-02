@@ -13,5 +13,10 @@ namespace Calculator
         {
             return minuend - subtrahend;
         }
+
+        public int Divide(int summandA, int summandB)
+        {
+            return summandA / summandB;
+        }
     }
 }
